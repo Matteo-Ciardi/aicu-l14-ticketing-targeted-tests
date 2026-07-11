@@ -1,0 +1,17 @@
+{
+  "name": "aicu-l12-student-starter",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
+  "scripts": {
+    "dev": "node server/index.js",
+    "start": "node server/index.js",
+    "check": "node --check server/index.js && node --check server/app.js && node --check server/ticket-rules.js && node --check server/validation.js && node --check src/main.js",
+    "test": "node --test \"tests/unit/*.test.js\" \"tests/api/*.test.js\"",
+    "test:unit": "node --test \"tests/unit/*.test.js\"",
+    "test:api": "node --test \"tests/api/*.test.js\""
+  }
+}
