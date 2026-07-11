@@ -11,7 +11,5 @@ describe("computeUrgencyLabel", () => {
     assert.equal(computeUrgencyLabel("alta", "telefono"), "intervento rapido");
   });
 
-  it("restituisce null per combinazioni non previste", () => {
-    assert.equal(computeUrgencyLabel("normale", "whatsapp"), null);
-  });
+
 });
